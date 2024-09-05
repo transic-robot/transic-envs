@@ -9,6 +9,8 @@
 
 <img src="media/SUSig-red.png" width=200>
 
+**Conference on Robot Learning (CoRL) 2024**
+
 [[Website]](https://transic-robot.github.io/)
 [[arXiv]](https://arxiv.org/abs/2405.10315)
 [[PDF]](https://transic-robot.github.io/assets/pdf/transic_paper.pdf)
@@ -24,7 +26,7 @@
 ______________________________________________________________________
 </div>
 
-TRANSIC-Envs is a collection of simulation environments built on [IsaacGym](https://developer.nvidia.com/isaac-gym) to support sim-to-real transfer of contact-rich robotic arm manipulation tasks. It is used in our [arXiv paper](https://arxiv.org/abs/2405.10315): TRANSIC: Sim-to-Real Policy Transfer by Learning from Online Correction.
+TRANSIC-Envs is a collection of simulation environments built on [IsaacGym](https://developer.nvidia.com/isaac-gym) to support sim-to-real transfer of contact-rich robotic arm manipulation tasks. It is used in our [CoRL paper](https://arxiv.org/abs/2405.10315) "TRANSIC: Sim-to-Real Policy Transfer by Learning from Online Correction".
 
 It extends the FurnitureSim from the [FurnitureBench paper](https://clvrai.github.io/furniture-bench/) by supporting massive environment parallelization, point-cloud observations, and joint position actions. With our TRANSIC method, policies trained in the simulation can transfer to the real world and accomplish complex tasks, such as assembling the square table from FurnitureBench. Checkout videos on our [website](https://transic-robot.github.io/)!
 
@@ -128,11 +130,11 @@ We would like to acknowledge the following open-source projects that greatly ins
 Our paper is posted on [arXiv](https://arxiv.org/abs/2405.10315). If you find our work useful, please consider citing us! 
 
 ```bibtex
-@article{jiang2024transic,
-  title   = {TRANSIC: Sim-to-Real Policy Transfer by Learning from Online Correction},
-  author  = {Yunfan Jiang and Chen Wang and Ruohan Zhang and Jiajun Wu and Li Fei-Fei},
-  year    = {2024},
-  journal = {arXiv preprint arXiv: Arxiv-2405.10315}
+@inproceedings{jiang2024transic,
+  title     = {TRANSIC: Sim-to-Real Policy Transfer by Learning from Online Correction},
+  author    = {Yunfan Jiang and Chen Wang and Ruohan Zhang and Jiajun Wu and Li Fei-Fei},
+  booktitle = {Conference on Robot Learning},
+  year      = {2024}
 }
 ```
 
